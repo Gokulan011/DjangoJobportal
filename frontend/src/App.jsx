@@ -3,7 +3,7 @@ import './App.css'
 import RegisterPage from './RegisterPage'
 import LoginPage from './LoginPage'
 import JobListPage from './JobListPage'
-import ApplyJobPage from './ApplyJobPage'
+import ApplyjobPage from './ApplyjobPage'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 
@@ -15,7 +15,7 @@ function App() {
           <Route path='' element={<RegisterPage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/jobs' element={<JobListPage/>}/>
-          <Route path='/apply/:jobId' element={<ApplyJobPage/>}/>
+          <Route path='/apply/:jobId' element={<ApplyjobPage/>}/>
         </Routes>
     </BrowserRouter>
   )

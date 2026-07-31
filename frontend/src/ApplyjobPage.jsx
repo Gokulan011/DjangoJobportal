@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { NavLink, useParams } from 'react-router-dom';
 
 
-export default function ApplyJobPage() {
+export default function ApplyjobPage() {
 
 const [result,formAction,isPending] = useActionState(applyjobAction, null,{
       withPending : true
